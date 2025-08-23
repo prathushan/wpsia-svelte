@@ -76,6 +76,100 @@
         "link": { "text": "Learn More", "href": "#" }
       }
     ]
+  }, "accessibility": {
+    "title": "Comprehensive Accessibility Testing",
+    "description": "Identify and fix accessibility issues to make your WordPress sites inclusive for all users",
+    "introText": "Our advanced accessibility module scans your WordPress site for WCAG compliance issues and provides actionable recommendations to improve user experience for people with disabilities.",
+    "issueLevels": [
+      {
+        "type": "high",
+        "icon": "fas fa-exclamation-circle",
+        "title": "Serious Priority Issues",
+        "description": "Critical accessibility problems that prevent users from accessing content, such as missing alt text, poor contrast, and keyboard navigation barriers."
+      },
+      {
+        "type": "medium",
+        "icon": "fas fa-exclamation-triangle",
+        "title": "Moderate Priority Issues",
+        "description": "Issues that may cause difficulties for some users, like inconsistent heading structure, unclear form labels, or missing ARIA attributes."
+      },
+      {
+        "type": "low",
+        "icon": "fas fa-info-circle",
+        "title": "Low Priority Issues",
+        "description": "Minor issues that could enhance the experience but don't prevent access, such as decorative image labeling or optional suggestions."
+      }
+    ],
+    "image": "/assets/html-css-collage-concept-with-person.jpg",
+    "imageAlt": "Accessibility Report Example"
+  }, "aiModels": {
+    "title": "Supported AI Models & Providers",
+    "description": "Choose from a wide range of AI models to power your WordPress site analysis and fixes",
+    "providers": [
+      {
+        "name": "WP-Site-Inspector",
+        "icon": "fas fa-robot",
+        "models": [
+          { "badge": "Default", "name": "WPSI-01" }
+        ]
+      },
+      {
+        "name": "OpenAI",
+        "icon": "fab fa-openai",
+        "models": [
+          { "badge": "Advanced", "name": "GPT-4" },
+          { "badge": "Standard", "name": "GPT-3.5 Turbo" }
+        ]
+      },
+      {
+        "name": "DeepSeek",
+        "icon": "fas fa-code",
+        "models": [
+          { "badge": "General", "name": "DeepSeek Chat" },
+          { "badge": "Code", "name": "DeepSeek Coder" },
+          { "badge": "Latest", "name": "DeepSeek Chat v3" }
+        ]
+      },
+      {
+        "name": "Anthropic",
+        "icon": "fas fa-leaf",
+        "models": [
+          { "badge": "Premium", "name": "Claude 3 Opus" },
+          { "badge": "Balanced", "name": "Claude 3 Sonnet" },
+          { "badge": "Fast", "name": "Claude 3 Haiku" }
+        ]
+      },
+      {
+        "name": "Google",
+        "icon": "fab fa-google",
+        "models": [
+          { "badge": "Advanced", "name": "Gemini 1.5 Pro" },
+          { "badge": "Standard", "name": "Gemini 1.0 Pro" }
+        ]
+      },
+      {
+        "name": "Mistral",
+        "icon": "fas fa-wind",
+        "models": [
+          { "badge": "Small", "name": "Mistral Small" },
+          { "badge": "Medium", "name": "Mistral Medium" },
+          { "badge": "Large", "name": "Mistral Large" }
+        ]
+      },
+      {
+        "name": "OpenRouter",
+        "icon": "fas fa-server",
+        "models": [
+          { "badge": "Free", "name": "GPT-3.5 Turbo" },
+          { "badge": "Premium", "name": "GPT-4" },
+          { "badge": "Free", "name": "DeepSeek Chat v3" }
+        ]
+      }
+    ],
+    "cta": {
+      "text": "See Full Model Documentation",
+      "href": "#"
+    }
   },
   "howItWorks": {
     "title": "How WP-Site-Inspector Works",
@@ -144,6 +238,72 @@
         }
       }
     ]
+  }, "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "description": "Choose the plan that's right for your WordPress development needs",
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "period": "per month",
+        "popular": false,
+        "features": [
+          { "text": "1 WordPress site", "included": true },
+          { "text": "Basic code analysis", "included": true },
+          { "text": "10 AI queries/month", "included": true },
+          { "text": "View-only logs", "included": true },
+          { "text": "Basic accessibility checks", "included": true },
+          { "text": "No backups/restores", "included": false },
+          { "text": "Community support only", "included": false }
+        ],
+        "cta": {
+          "text": "Get Started",
+          "href": "#",
+          "style": "outline"
+        }
+      },
+      {
+        "name": "Pro",
+        "price": "$4.99",
+        "period": "per site / month",
+        "popular": true,
+        "popularText": "Most Popular",
+        "features": [
+          { "text": "Unlimited sites", "included": true },
+          { "text": "Full code analysis", "included": true },
+          { "text": "Unlimited AI queries", "included": true },
+          { "text": "Advanced logging", "included": true },
+          { "text": "Complete accessibility module", "included": true },
+          { "text": "Full backups & restores", "included": true },
+          { "text": "Priority email support", "included": true }
+        ],
+        "cta": {
+          "text": "Start Free Trial",
+          "href": "#",
+          "style": "primary"
+        }
+      },
+      {
+        "name": "Agency",
+        "price": "$29",
+        "period": "for 10 sites / month",
+        "popular": false,
+        "features": [
+          { "text": "Everything in Pro", "included": true },
+          { "text": "White-label dashboard", "included": true },
+          { "text": "Multi-user access", "included": true },
+          { "text": "Advanced reporting", "included": true },
+          { "text": "Custom templates", "included": true },
+          { "text": "1-on-1 onboarding", "included": true },
+          { "text": "Dedicated support", "included": true }
+        ],
+        "cta": {
+          "text": "Contact Sales",
+          "href": "#",
+          "style": "outline"
+        }
+      }
+    ]
   },
   "cta": {
     "title": "Ready to Transform Your WordPress Workflow?",
@@ -161,8 +321,7 @@
     "description": "WP-Site-Inspector gives developers deep insights into WordPress sites with AI assistance to dramatically speed up troubleshooting and auditing.",
     "social": [
       { "icon": "fab fa-twitter", "href": "#" },
-      { "icon": "fab fa-facebook-f", "href": "#" },
-      { "icon": "fab fa-linkedin-in", "href": "#" },
+
       { "icon": "fab fa-github", "href": "#" }
     ],
     "sections": [

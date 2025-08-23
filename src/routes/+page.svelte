@@ -11,12 +11,18 @@
   
   // Import data from JSON
   import data from '$lib/data.json';
+  import Accessibility from '$lib/components/Accessibility.svelte';
+  import AiModels from '$lib/components/AiModels.svelte';
+  import Pricing from '$lib/components/Pricing.svelte';
 </script>
 
 <Header {data} />
 <Hero {data} />
 <Features {data} />
 <HowItWorks {data} />
+<Accessibility {data} />
+<AiModels {data} />
+<Pricing {data} />
 <Testimonials {data} />
 <Cta {data} />
 <Footer {data} />
