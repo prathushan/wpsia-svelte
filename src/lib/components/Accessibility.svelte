@@ -29,7 +29,7 @@
             </div>
           {/each}
         </div>
-        <p>{data.accessibility.introText}</p>
+        <p class="accessible-intro-text">{data.accessibility.introText}</p>
       </div>
       
     
