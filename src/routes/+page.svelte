@@ -1,2 +1,22 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<!-- src/routes/+page.svelte -->
+<script>
+    
+  import Header from '$lib/components/Header.svelte';
+  import Hero from '$lib/components/Hero.svelte';
+  import Features from '$lib/components/Features.svelte';
+  import HowItWorks from '$lib/components/HowItWorks.svelte';
+  import Testimonials from '$lib/components/Testimonials.svelte';
+  import Cta from '$lib/components/Cta.svelte';
+  import Footer from '$lib/components/Footer.svelte';
+  
+  // Import data from JSON
+  import data from '$lib/data.json';
+</script>
+
+<Header {data} />
+<Hero {data} />
+<Features {data} />
+<HowItWorks {data} />
+<Testimonials {data} />
+<Cta {data} />
+<Footer {data} />

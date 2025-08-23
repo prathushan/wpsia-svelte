@@ -1,0 +1,202 @@
+{
+  "site": {
+    "name": "WP-Site-Inspector",
+    "acronym": "WPSI",
+    "tagline": "Advanced WordPress Site Analysis Plugin"
+  },
+  "header": {
+    "logo": {
+      "text": "WPSI",
+      "highlight": "A"
+    },
+    "nav": [
+      { "text": "Features", "href": "#features" },
+      { "text": "How It Works", "href": "#how-it-works" },
+      { "text": "Testimonials", "href": "#testimonials" },
+      { "text": "Pricing", "href": "#pricing" },
+      { "text": "FAQ", "href": "#faq" }
+    ],
+    "cta": [
+      { "text": "Download Now", "style": "primary", "href": "#" }
+    ]
+  },
+  "hero": {
+    "badge": "AI-Powered WordPress Analysis",
+    "title": "Debug, Analyze & Fix WordPress Sites in Minutes",
+    "description": "WP-Site-Inspector gives developers deep insights into shortcode usage, hooks, templates, REST endpoints, and debugging logs with AI assistance to dramatically speed up troubleshooting.",
+    "cta": [
+      { "text": "Get Started Free", "style": "primary", "href": "#" },
+      { "text": "View Demo", "style": "outline", "href": "#" }
+    ],
+    "stats": [
+      { "icon": "fas fa-plug", "number": "5,000+", "text": "Active Installs" },
+      { "icon": "fas fa-star", "number": "4.9/5", "text": "Rating" },
+      { "icon": "fas fa-code", "number": "98%", "text": "Success Rate" }
+    ],
+    "image": "assets/html-css-collage-concept-with-person.jpg"
+  },
+  "features": {
+    "title": "Powerful Features for WordPress Developers",
+    "description": "Everything you need to analyze, debug, and maintain WordPress sites efficiently",
+    "items": [
+      {
+        "icon": "fas fa-code",
+        "title": "Code Analysis",
+        "description": "Deep scan of themes, plugins, and core files to identify issues, vulnerabilities, and optimization opportunities.",
+        "link": { "text": "Learn More", "href": "#" }
+      },
+      {
+        "icon": "fas fa-bug",
+        "title": "Debugging Tools",
+        "description": "Identify and fix PHP errors, JavaScript conflicts, and database issues with intelligent debugging tools.",
+        "link": { "text": "Learn More", "href": "#" }
+      },
+      {
+        "icon": "fas fa-robot",
+        "title": "AI Assistance",
+        "description": "Get AI-powered suggestions for fixing issues, optimizing code, and improving site performance.",
+        "link": { "text": "Learn More", "href": "#" }
+      },
+      {
+        "icon": "fas fa-history",
+        "title": "Change Tracking",
+        "description": "Monitor file changes, database modifications, and user activity to track down issues and maintain audit logs.",
+        "link": { "text": "Learn More", "href": "#" }
+      },
+      {
+        "icon": "fas fa-shield-alt",
+        "title": "Security Scan",
+        "description": "Detect security vulnerabilities, malware, and suspicious activity with comprehensive security scanning.",
+        "link": { "text": "Learn More", "href": "#" }
+      },
+      {
+        "icon": "fas fa-tachometer-alt",
+        "title": "Performance Analysis",
+        "description": "Identify performance bottlenecks, slow queries, and optimization opportunities with detailed performance reports.",
+        "link": { "text": "Learn More", "href": "#" }
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "How WP-Site-Inspector Works",
+    "description": "Get started in just a few simple steps",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Install & Activate",
+        "description": "Upload and activate the plugin on any WordPress site"
+      },
+      {
+        "number": 2,
+        "title": "Run Analysis",
+        "description": "Initiate a comprehensive scan of your WordPress installation"
+      },
+      {
+        "number": 3,
+        "title": "Review Results",
+        "description": "Explore detailed reports on performance, security, and code quality"
+      },
+      {
+        "number": 4,
+        "title": "Implement Fixes",
+        "description": "Use AI-powered recommendations to fix issues and optimize your site"
+      }
+    ],
+    "cta": {
+      "text": "See Full Documentation",
+      "href": "#"
+    }
+  },
+  "testimonials": {
+    "title": "What Developers Say",
+    "description": "Trusted by thousands of WordPress developers and agencies",
+    "items": [
+      {
+        "text": "WP-Site-Inspector has completely transformed how we handle client sites. We've cut our debugging time by at least 70% and can now identify issues before they become problems.",
+        "author": {
+          "initials": "JD",
+          "name": "John Doe",
+          "role": "Lead Developer, WebDev Agency"
+        }
+      },
+      {
+        "text": "The AI suggestions are incredibly accurate. It's like having a senior WordPress developer looking over your shoulder and pointing out exactly what needs to be fixed.",
+        "author": {
+          "initials": "SM",
+          "name": "Sarah Miller",
+          "role": "Freelance Developer"
+        }
+      },
+      {
+        "text": "I've tried many WordPress analysis tools, but none come close to the depth of insight that WP-Site-Inspector provides. The accessibility module alone is worth the price.",
+        "author": {
+          "initials": "RJ",
+          "name": "Robert Johnson",
+          "role": "CTO, TechSolutions Inc."
+        }
+      },
+      {
+        "text": "As someone who maintains dozens of WordPress sites, this plugin has been a game-changer. I can now quickly assess the health of any site and prioritize what needs attention.",
+        "author": {
+          "initials": "EW",
+          "name": "Emma Wilson",
+          "role": "Site Manager, WP Maintenance Co."
+        }
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Transform Your WordPress Workflow?",
+    "description": "Join thousands of developers who are already saving hours of debugging time and delivering better results to their clients.",
+    "buttons": [
+      { "text": "Download Free Version", "style": "white", "href": "#" },
+      { "text": "View Pro Features", "style": "transparent", "href": "#" }
+    ]
+  },
+  "footer": {
+    "logo": {
+      "text": "WPSI",
+      "highlight": "A"
+    },
+    "description": "WP-Site-Inspector gives developers deep insights into WordPress sites with AI assistance to dramatically speed up troubleshooting and auditing.",
+    "social": [
+      { "icon": "fab fa-twitter", "href": "#" },
+      { "icon": "fab fa-facebook-f", "href": "#" },
+      { "icon": "fab fa-linkedin-in", "href": "#" },
+      { "icon": "fab fa-github", "href": "#" }
+    ],
+    "sections": [
+      {
+        "title": "Product",
+        "links": [
+          { "text": "Features", "href": "#" },
+          { "text": "Pricing", "href": "#" },
+          { "text": "Use Cases", "href": "#" },
+          { "text": "Testimonials", "href": "#" },
+          { "text": "Documentation", "href": "#" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "text": "About Us", "href": "#" },
+          { "text": "Blog", "href": "#" },
+          { "text": "Careers", "href": "#" },
+          { "text": "Contact", "href": "#" },
+          { "text": "Privacy Policy", "href": "#" }
+        ]
+      },
+      {
+        "title": "Support",
+        "links": [
+          { "text": "Help Center", "href": "#" },
+          { "text": "Community", "href": "#" },
+          { "text": "FAQ", "href": "#" },
+          { "text": "Request a Feature", "href": "#" },
+          { "text": "Report a Bug", "href": "#" }
+        ]
+      }
+    ],
+    "copyright": "© 2025 WP-Site-Inspector. All rights reserved."
+  }
+}
