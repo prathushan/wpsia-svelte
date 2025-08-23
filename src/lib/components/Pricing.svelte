@@ -25,7 +25,7 @@
                 {#if feature.included}
                   <i class="fas fa-check feature-icon"></i>
                 {:else}
-                  <i class="fas fa-times"></i>
+                  <i class="fas fa-times feature-icon-cross"></i>
                 {/if}
                 {feature.text}
               </li>
