@@ -412,11 +412,12 @@
         }
         
         .provider-card {
-            background: white;
+            /* background: white; */
             border-radius: 10px;
             padding: 25px;
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
             transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.2);
         }
         
         .provider-card:hover {
@@ -555,6 +556,9 @@
             align-items: center;
             gap: 10px;
 
+        }
+        .pricing .feature-icon-cross{
+            margin-bottom:0;
         }
         
         .pricing-features li:last-child {
@@ -747,7 +751,10 @@
             padding: 80px 0 40px;
             background: var(--dark);
             color: rgba(255, 255, 255, 0.7);
+            position:relative;
+            clip-path: ellipse(150% 100% at 50% 0%);
         }
+
         
         .footer-grid {
             display: grid;
