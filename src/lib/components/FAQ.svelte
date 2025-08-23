@@ -68,7 +68,7 @@
     color: #111827;
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid #e5e7eb;
+    /* border-bottom: 2px solid #e5e7eb; */
   }
   
   .faq-item {
