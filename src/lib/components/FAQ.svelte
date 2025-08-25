@@ -117,6 +117,10 @@
     background: white;
     border-radius: 1rem;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+  }
+  .faq-cta:hover{
+     box-shadow: 0 15px 30px rgba(64, 86, 227, 0.73);
   }
   
   .faq-cta p {
