@@ -24,7 +24,6 @@
 <HowItWorks {data} />
 <Accessibility {data} />
 <AiModels {data} />
-<Workflow/>
 <Pricing {data} />
 <Testimonials {data} />
 <Cta {data} />

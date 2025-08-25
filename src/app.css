@@ -139,7 +139,7 @@ header {
 
 /* Hero Section */
 .hero {
-  padding: 160px 0 100px;
+  padding: 160px 0 50px;
   background-size: cover;
   /* background: linear-gradient(135deg, #4a6cf7 0%, #6f42c1 100%); */
 }
@@ -237,13 +237,13 @@ header {
 
 /* Features Section */
 .features {
-  padding: 100px 0;
+  padding: 50px 0 0;
   background: white;
 }
 
 .section-header {
   text-align: center;
-  max-width: 700px;
+  max-width: 1200px;
   margin: 0 auto 60px;
 }
 
@@ -397,7 +397,7 @@ header {
 
 /* AI Models Section */
 .ai-models {
-  padding: 80px 20px;
+  padding: 50px 20px;
   background: white;
 }
 
@@ -533,7 +533,7 @@ header {
 
 /* Pricing Section */
 .pricing {
-  padding: 100px 0;
+  padding: 50px 0;
   background: #f8fafc;
 }
 
@@ -633,7 +633,7 @@ header {
 
 /* How It Works */
 .how-it-works {
-  padding: 100px 0;
+  padding: 50px 0;
   background: white;
 }
 
