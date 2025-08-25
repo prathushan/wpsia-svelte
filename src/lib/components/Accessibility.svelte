@@ -70,10 +70,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 15px;
+    margin-top: 30px;
   }
   .uat-desText p {
-    margin-top: 10px;
+    margin-top: 30px;
   }
 
   .accessibility-header {
