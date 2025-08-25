@@ -151,7 +151,7 @@
  
 <div class="container">
   <!-- SVG for connecting lines -->
-<h2 class="workflow-heading section-title">Workflow</h2>
+<!-- <h2 class="workflow-heading section-title">Workflow</h2> -->
   <div class="workflow-container">
 
   <svg viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid meet">
@@ -221,7 +221,7 @@
  
   <!-- Left-side card -->
   <div class="card left card-left">
-    <img src="/assets/wordpress icon.png" alt="Final Output" class="wordpress-logo">
+    <img src="/assets/wordpress-icon.png" alt="Final Output" class="wordpress-logo">
   </div>
  
   <!-- AI cards -->

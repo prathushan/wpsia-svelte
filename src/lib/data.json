@@ -79,8 +79,7 @@
   },
     "uat": {
     "title": "User Accessibility Testing (UAT)",
-    "description": "Accessibility Matters Now More Than Ever",
-   "descriptionSecond":  "Accessibility simplified. Compliance guaranteed",
+   "description":  "Accessibility simplified. Compliance guaranteed",
     "desText": [
       { "text": "Accessibility is no longer optional — it’s a necessity. Every inaccessible website risks shutting out millions of users, damaging trust, and even facing lawsuits."},
       { "text": "With WordPress Site Inspector + AI Agent, accessibility becomes effortless — scan your existing site, get actionable fixes, and stay confidently compliant. Ensure your website works for everyone while future-proofing your business."}
@@ -109,7 +108,7 @@
     "image": "assets/uat-accessibility.png"
   },
    "accessibility": {
-    "title": "Comprehensive Accessibility Testing",
+    "title": "Accessibility Matters Now More Than Ever",
     "description": "Identify and fix accessibility issues to make your WordPress sites inclusive for all users",
     "introText": "Our advanced accessibility module scans your WordPress site for WCAG compliance issues and provides actionable recommendations to improve user experience for people with disabilities.",
     "issueLevels": [
@@ -234,8 +233,8 @@
     }
   },
   "testimonials": {
-    "title": "What Developers Say",
-    "description": "Trusted by thousands of WordPress developers and agencies",
+    "title": "Why WordPress Developers Rely on WP-Site-Inspector",
+    "description": "Real stories from agencies and freelancers saving time, money, and headaches.",
     "items": [
       {
         "text": "WP-Site-Inspector has completely transformed how we handle client sites. We've cut our debugging time by at least 70% and can now identify issues before they become problems.",
