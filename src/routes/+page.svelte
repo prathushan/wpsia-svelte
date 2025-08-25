@@ -15,6 +15,7 @@
   import AiModels from '$lib/components/AiModels.svelte';
   import Pricing from '$lib/components/Pricing.svelte';
   import Faq from '$lib/components/FAQ.svelte';
+  import Workflow from '$lib/components/Workflow.svelte';
 </script>
 
 <Header {data} />
@@ -23,8 +24,9 @@
 <HowItWorks {data} />
 <Accessibility {data} />
 <AiModels {data} />
+<Workflow/>
 <Pricing {data} />
 <Testimonials {data} />
-<Faq {data} />
 <Cta {data} />
+<Faq {data} />
 <Footer {data} />

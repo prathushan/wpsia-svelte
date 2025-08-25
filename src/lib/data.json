@@ -76,7 +76,39 @@
         "link": { "text": "Learn More", "href": "#" }
       }
     ]
-  }, "accessibility": {
+  },
+    "uat": {
+    "title": "User Accessibility Testing (UAT)",
+    "description": "Accessibility Matters Now More Than Ever",
+   "descriptionSecond":  "Accessibility simplified. Compliance guaranteed",
+    "desText": [
+      { "text": "Accessibility is no longer optional — it’s a necessity. Every inaccessible website risks shutting out millions of users, damaging trust, and even facing lawsuits."},
+      { "text": "With WordPress Site Inspector + AI Agent, accessibility becomes effortless — scan your existing site, get actionable fixes, and stay confidently compliant. Ensure your website works for everyone while future-proofing your business."}
+    ],
+ "issueLevels": [
+  {
+        "type": "high",
+        
+        "icon": "fas fa-exclamation-circle",
+        "title": "Critical"
+       }, 
+
+      {
+        "type": "serious",
+        "icon": "fas fa-info-circle",
+        "title": "Serious"
+        },
+      
+      {
+        "type": "medium",
+        "icon": "fas fa-exclamation-triangle",
+        "title": "Moderate"
+       
+      }
+    ],
+    "image": "assets/uat-accessibility.png"
+  },
+   "accessibility": {
     "title": "Comprehensive Accessibility Testing",
     "description": "Identify and fix accessibility issues to make your WordPress sites inclusive for all users",
     "introText": "Our advanced accessibility module scans your WordPress site for WCAG compliance issues and provides actionable recommendations to improve user experience for people with disabilities.",
@@ -398,8 +430,8 @@
     "description": "WP-Site-Inspector gives developers deep insights into WordPress sites with AI assistance to dramatically speed up troubleshooting and auditing.",
     "social": [
       { "icon": "fab fa-twitter", "href": "#" },
-
-      { "icon": "fab fa-github", "href": "#" }
+      { "icon": "fab fa-github", "href": "#" },
+      { "icon": "fab fa-discord", "href": "#" }
     ],
     "sections": [
       {

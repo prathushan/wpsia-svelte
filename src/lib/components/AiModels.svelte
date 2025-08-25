@@ -1,7 +1,6 @@
 <script>
   export let data;
 </script>
-
 <section class="ai-models" id="ai-models">
   <div class="container">
     <div class="models-header">
@@ -13,16 +12,19 @@
       {#each data.aiModels.providers as provider}
         <div class="provider-card">
           <div class="provider-header">
-            <div class="provider-icon">
+            <div class="provider-icon tooltip-trigger">
               <i class={provider.icon}></i>
+              <div class="tooltip-content">
+                <div class="tooltip-title">{provider.name} Models</div>
+                <ul class="models-list">
+                  {#each provider.models as model}
+                    <li><span class="model-badge">{model.badge}</span> {model.name}</li>
+                  {/each}
+                </ul>
+              </div>
             </div>
             <div class="provider-name">{provider.name}</div>
           </div>
-          <ul class="models-list">
-            {#each provider.models as model}
-              <li><span class="model-badge">{model.badge}</span> {model.name}</li>
-            {/each}
-          </ul>
         </div>
       {/each}
     </div>

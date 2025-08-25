@@ -3,16 +3,49 @@
 </script>
 
 <section class="accessibility" id="accessibility">
-  <div class="container">
-    <div class="section-header">
+
+    <div class="accessibility-header">
       <h2 class="section-title">{data.accessibility.title}</h2>
       <p class="section-desc">{data.accessibility.description}</p>
     </div>
+
+  <div class="container">
+
+      <div class="hero-content">
+    <div class="hero-text">
+      <h2 class="uat-title">{data.uat.title}</h2>
+      <p class="uat-desc">{data.uat.description}</p>
+      <p class="uat-desc">{data.uat.descriptionSecond}</p>
+            <div class="uat-desText">
+        {#each data.uat.desText as descText}
+          <p>{descText.text}</p>
+        {/each}
+      </div>
+       
+  <div class="uat-icon-dev">
+            {#each data.uat.issueLevels as level}
+
+              <div class="issue-title">
+                <div class="issue-icon icon-{level.type}">
+                  <i class={level.icon}></i>
+                </div>
+                <h4>{level.title}</h4>
+              </div>
+          {/each}
+ </div>
+
+    </div>
     
-    <div class="access-content">
-    <!-- <div class="access-image">
+    <div class="hero-image">
+      <img src={data.uat.image} alt="WP-Site-Inspector Dashboard">
+    </div>
+  </div>
+
+    
+  <!-- <div class="access-content">
+    <div class="access-image">
         <img src={data.accessibility.image} alt={data.accessibility.imageAlt}>
-      </div> -->
+      </div>
 
       <div class="access-text">
                
@@ -28,11 +61,34 @@
               <p>{level.description}</p>
             </div>
           {/each}
-        </div>
-        <p class="accessible-intro-text">{data.accessibility.introText}</p>
-      </div>
+
       
     
     </div>
-  </div>
+   -->
+
+</div>
+
+
 </section>
+
+<style>
+
+.uat-icon-dev
+{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin-top:15px;
+
+}
+.uat-desText p{
+  margin-top:10px;
+}
+
+        .accessibility-header {
+            text-align: center;
+            max-width: 710px;
+            margin: 0 auto 60px;
+        }
+</style>
