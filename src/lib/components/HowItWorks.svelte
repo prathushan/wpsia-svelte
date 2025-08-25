@@ -1,4 +1,6 @@
 <script>
+  import Workflow from "./Workflow.svelte";
+
   export let data;
 </script>
 
@@ -18,6 +20,8 @@
         </div>
       {/each}
     </div>
+
+    <Workflow/>
     
     <div style="text-align: center; margin-top: 3rem;">
       <a href={data.howItWorks.cta.href} class="btn btn-primary">{data.howItWorks.cta.text}</a>
