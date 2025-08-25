@@ -22,8 +22,8 @@
               <i class={stat.icon}></i>
             </div>
             <div class="stat-text">
-              <div class="stat-number">{stat.number}</div>
-              <div>{stat.text}</div>
+             <span class="stat-number">{stat.number}</span>
+              <span>{stat.text}</span>
             </div>
           </div>
         {/each}
@@ -35,3 +35,14 @@
     </div>
   </div>
 </section>
+
+<style>
+  .stat-text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .stat-text span{
+    line-height: 20px;
+  }
+</style>

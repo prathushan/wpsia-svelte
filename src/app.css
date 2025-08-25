@@ -185,7 +185,7 @@ header {
 
 .hero-stats {
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
 }
 
 .stat-item {
@@ -238,7 +238,7 @@ header {
 /* Features Section */
 .features {
   padding: 50px 0 0;
-  background: white;
+  background: #f8fafc;
 }
 
 .section-header {
