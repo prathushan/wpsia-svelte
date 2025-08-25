@@ -27,11 +27,11 @@
               <div class="faq-item">
                 <button class="faq-question" on:click={() => toggleFAQ(`${categoryIndex}-${index}`)}>
                   <span>{question.question}</span>
-                  <i class="fas {openIndex === `${categoryIndex}-${index}` ? 'fa-minus' : 'fa-plus'}"></i>
+                  <i class="fas {openIndex === `${categoryIndex}-${index}` ? 'fa-times' : 'fa-plus'}"></i>
                 </button>
                 
                 {#if openIndex === `${categoryIndex}-${index}`}
-  <div class="faq-answer" transition:slide={{ duration: 500 }}>
+  <div class="faq-answer" transition:slide={{ duration: 700 }}>
     <p>{question.answer}</p>
   </div>
 {/if}
