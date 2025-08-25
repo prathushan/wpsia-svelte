@@ -1,4 +1,5 @@
 <script>
+  import { slide } from 'svelte/transition';
   export let data;
   
   // Track which FAQ item is open
@@ -30,10 +31,10 @@
                 </button>
                 
                 {#if openIndex === `${categoryIndex}-${index}`}
-                  <div class="faq-answer">
-                    <p>{question.answer}</p>
-                  </div>
-                {/if}
+  <div class="faq-answer" transition:slide={{ duration: 500 }}>
+    <p>{question.answer}</p>
+  </div>
+{/if}
               </div>
             {/each}
           </div>

@@ -78,7 +78,7 @@
 
   .accessibility-header {
     text-align: center;
-    max-width: 810px;
+    max-width: 1200px;
     margin: 0 auto 60px;
   }
 
