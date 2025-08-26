@@ -1243,4 +1243,8 @@ footer {
     font-size: 1.2rem !important;
 
     }
+
+    .hero .container .hero-content .hero-title {
+  font-size: 1.6rem !important;
+}
 }
