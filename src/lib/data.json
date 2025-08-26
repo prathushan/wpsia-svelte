@@ -17,7 +17,7 @@
       { "text": "FAQ", "href": "#faq" }
     ],
     "cta": [
-      { "text": "Download Now", "style": "primary", "href": "#" }
+      { "text": "Download Now", "style": "primary", "href": "https://github.com/prathushan/WP-Site-Inspector-Agent/archive/refs/heads/main.zip" }
     ]
   },
   "hero": {
@@ -25,11 +25,11 @@
     "title": "Debug, Analyze & Fix WordPress Sites in Minutes",
     "description": "WP-Site-Inspector gives developers deep insights into shortcode usage, hooks, templates, REST endpoints, and debugging logs with AI assistance to dramatically speed up troubleshooting.",
     "cta": [
-      { "text": "Get Started Free", "style": "primary", "href": "#" },
+      { "text": "Get Started Free", "style": "primary", "href": "https://github.com/prathushan/WP-Site-Inspector-Agent/archive/refs/heads/main.zip" },
       { "text": "View Demo", "style": "outline", "href": "#" }
     ],
     "stats": [
-      { "icon": "fas fa-plug", "number": "5,000+", "text": "Active Installs" },
+      { "icon": "fas fa-plug", "number": "1,000+", "text": "Active Installs" },
       { "icon": "fas fa-star", "number": "4.9/5", "text": "Rating" },
       { "icon": "fas fa-code", "number": "98%", "text": "Success Rate" }
     ],
@@ -43,37 +43,37 @@
         "icon": "fas fa-code",
         "title": "Code Analysis",
         "description": "Deep scan of themes, plugins, and core files to identify issues, vulnerabilities, and optimization opportunities.",
-        "link": { "text": "Learn More", "href": "#" }
+        "link": { "text": "Learn More", "href": "#how-it-works" }
       },
       {
         "icon": "fas fa-bug",
         "title": "Debugging Tools",
         "description": "Identify and fix PHP errors, JavaScript conflicts, and database issues with intelligent debugging tools.",
-        "link": { "text": "Learn More", "href": "#" }
+        "link": { "text": "Learn More", "href": "#how-it-works" }
       },
       {
         "icon": "fas fa-robot",
         "title": "AI Assistance",
         "description": "Get AI-powered suggestions for fixing issues, optimizing code, and improving site performance.",
-        "link": { "text": "Learn More", "href": "#" }
+        "link": { "text": "Learn More", "href": "#how-it-works" }
       },
       {
         "icon": "fas fa-history",
         "title": "Change Tracking",
         "description": "Monitor file changes, database modifications, and user activity to track down issues and maintain audit logs.",
-        "link": { "text": "Learn More", "href": "#" }
+        "link": { "text": "Learn More", "href": "#how-it-works" }
       },
       {
         "icon": "fas fa-shield-alt",
         "title": "Security Scan",
         "description": "Detect security vulnerabilities, malware, and suspicious activity with comprehensive security scanning.",
-        "link": { "text": "Learn More", "href": "#" }
+        "link": { "text": "Learn More", "href": "#how-it-works" }
       },
       {
         "icon": "fas fa-tachometer-alt",
         "title": "Performance Analysis",
         "description": "Identify performance bottlenecks, slow queries, and optimization opportunities with detailed performance reports.",
-        "link": { "text": "Learn More", "href": "#" }
+        "link": { "text": "Learn More", "href": "#how-it-works" }
       }
     ]
   },
@@ -289,8 +289,8 @@
           { "text": "Community support only", "included": false }
         ],
         "cta": {
-          "text": "Get Started",
-          "href": "#",
+          "text": "Download Now",
+          "href": "https://github.com/prathushan/WP-Site-Inspector-Agent/archive/refs/heads/main.zip",
           "style": "outline"
         }
       },
@@ -310,8 +310,8 @@
           { "text": "Priority email support", "included": true }
         ],
         "cta": {
-          "text": "Start Free Trial",
-          "href": "#",
+          "text": "Get Early Access",
+          "href": "#early-access",
           "style": "primary"
         }
       },
@@ -330,8 +330,8 @@
           { "text": "Dedicated support", "included": true }
         ],
         "cta": {
-          "text": "Contact Sales",
-          "href": "#",
+          "text": "Get Early Access",
+          "href": "#early-access",
           "style": "outline"
         }
       }
@@ -418,8 +418,8 @@
     "title": "Ready to Transform Your WordPress Workflow?",
     "description": "Join thousands of developers who are already saving hours of debugging time and delivering better results to their clients.",
     "buttons": [
-      { "text": "Download Free Version", "style": "white", "href": "#" },
-      { "text": "View Pro Features", "style": "transparent", "href": "#" }
+      { "text": "Download Free Version", "style": "white", "href": "https://github.com/prathushan/WP-Site-Inspector-Agent/archive/refs/heads/main.zip" },
+      { "text": "View Pro Features", "style": "transparent", "href": "#pricing" }
     ]
   },
   "footer": {

@@ -1,29 +1,4 @@
-    
-    <script>
-  
-  let scrolled = false;
-  
-  function handleScroll() {
-    scrolled = window.scrollY > 50;
-  }
-  
-  if (typeof window !== 'undefined') {
-    window.addEventListener('scroll', handleScroll);
-  }
-  
-  function smoothScroll(e, targetId) {
-    e.preventDefault();
-    if (targetId === '#') return;
-    
-    const targetElement = document.querySelector(targetId);
-    if (targetElement) {
-      window.scrollTo({
-        top: targetElement.offsetTop - 80,
-        behavior: 'smooth'
-      });
-    }
-  }
-</script> 
+
     <section class="hero">
         <div class="container">
             <div class="hero-badge-container">
@@ -35,7 +10,7 @@
                 <i class="fas fa-bolt"></i> Limited Time Offer
             </div>
             </div>
-            <h1 class="hero-title">Be One of the First 100 – Get Pro Access FREE!</h1>
+            <h1 class="hero-title">Be One of the First 100 Get Pro Access FREE!</h1>
             <p class="hero-desc">Join our early access program and receive lifetime access to all Pro and Agency features of WP-Site-Inspector. No payment required.</p>
             
             <div class="hero-cta">
@@ -51,7 +26,7 @@
     <style>
                 /* Hero Section */
         .hero {
-            padding: 160px 0 0;
+            padding: 160px 0 30px;
             background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 800 800"><rect fill="%23f8fafc" width="800" height="800"/><path fill="%23e2e8f0" fill-opacity="0.2" d="M0,0L800,800M800,0L0,800" stroke-width="2"/></svg>');
             background-size: cover;
             text-align: center;
@@ -138,5 +113,13 @@
         .stat-label {
             font-size: 1rem;
             color: var(--secondary);
+        }
+
+        @media(max-width:480px){
+             .hero-badge-container{
+            
+            flex-direction: column;
+            
+        }
         }
     </style>
