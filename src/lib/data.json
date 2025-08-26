@@ -78,7 +78,7 @@
     ]
   },
     "uat": {
-    "title": "User Accessibility Testing (UAT)",
+    "title": "User Accessibility Testing",
    "description":  "Accessibility simplified. Compliance guaranteed",
     "desText": [
       { "text": "Accessibility is no longer optional — it’s a necessity. Every inaccessible website risks shutting out millions of users, damaging trust, and even facing lawsuits."},
@@ -105,7 +105,7 @@
        
       }
     ],
-    "image": "assets/uat-accessibility.png"
+    "image": "assets/wpsi-accessibility.png"
   },
    "accessibility": {
     "title": "Accessibility Matters Now More Than Ever",

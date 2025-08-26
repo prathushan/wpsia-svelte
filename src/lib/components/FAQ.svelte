@@ -41,10 +41,10 @@
         {/each}
       </div>
       
-      <div class="faq-cta">
+      <!-- <div class="faq-cta">
         <p>Still have questions? We're here to help!</p>
         <a href="{data.faq.cta.href}" class="btn btn-primary">{data.faq.cta.text}</a>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
