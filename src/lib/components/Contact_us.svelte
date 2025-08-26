@@ -260,6 +260,12 @@
       padding: 0.7rem;
     }
   }
+  @media(max-width:400px){
+     button {
+      font-size: 11px;
+      padding: 0.7rem;
+    }
+  }
 </style>
 <section id="early-access">
 <div class="form-container">
