@@ -1114,11 +1114,10 @@ footer {
     margin-top: 0px !important;
     
 } 
-.uat-desText .p{
-   font-size: 1rem !important;
-}
-.uat-desText .p {
+
+.uat-desText p {
   font-size: 1rem !important; 
+  text-align: left !important;
 }
 
 
@@ -1218,6 +1217,11 @@ footer {
   font-size: 1.8rem !important;
 }
 
+
+.languages .section-header p {
+    font-size: 0.9rem
+
+}
 .faq .section-title {
     font-size: 1.55rem !important;
 }
