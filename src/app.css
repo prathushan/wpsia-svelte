@@ -872,7 +872,6 @@ footer {
   background: var(--gradient);
   color: rgba(255, 255, 255, 0.7);
   position: relative;
-  clip-path: ellipse(150% 100% at 50% 0%);
 }
 
 .footer-grid {
@@ -955,6 +954,9 @@ footer {
   .accessible-intro-text {
     padding: 10px 80px 0;
   }
+  footer {
+  clip-path: ellipse(150% 100% at 50% 0%);
+}
 }
 
 /* Responsive Design */
