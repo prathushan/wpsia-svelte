@@ -16,8 +16,10 @@
   import Pricing from '$lib/components/Pricing.svelte';
   import Faq from '$lib/components/FAQ.svelte';
   import Workflow from '$lib/components/Workflow.svelte';
+  import EarlyAccess from '$lib/components/EarlyAccess.svelte';
 </script>
 
+<EarlyAccess/>
 <Header {data} />
 <Hero {data} />
 <Features {data} />

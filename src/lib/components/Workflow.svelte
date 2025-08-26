@@ -9,10 +9,7 @@
     height: 700px;
     margin: -150px auto; /* Reduced top margin */
   }
-  .workflow-heading{
-    text-align: center;
-    margin:0 auto;
-  }
+  
  
   /* Center Circle with Pulse */
   .center, .center-ai {
