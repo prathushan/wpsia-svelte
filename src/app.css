@@ -1101,13 +1101,26 @@ footer {
    font-size: 1.6rem !important;
   }
 
+.accessibility-header {
+
+  margin: 0 auto 20px;
+}
+
 .section-desc {
     font-size: 1rem;
 }
 
+.uat-desText {
+    margin-top: 0px !important;
+    
+} 
 .uat-desText .p{
-font-size: 1rem;
+   font-size: 1rem !important;
 }
+.uat-desText .p {
+  font-size: 1rem !important; 
+}
+
 
 .languages {
   padding-top: 5px !important;
@@ -1137,6 +1150,12 @@ font-size: 1rem;
      font-size: 1.8rem !important; 
 }
 
+
+.uat-icon-dev {
+  flex-direction: column;
+    gap: 30px; 
+}
+
     .right.s-zkgWn1QbQ8rV h2:where(.s-zkgWn1QbQ8rV) {
         font-size: 1.8rem !important;
     }
@@ -1146,7 +1165,7 @@ font-size: 1rem;
     font-size: 1.6rem !important;
   }
   
-  .accessibility-content.s-Wf9PRaUlFezo {
+  .accessibility-content {
     flex-direction: column;
     gap: 30px;
 }
