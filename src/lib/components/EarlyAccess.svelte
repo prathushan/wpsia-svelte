@@ -70,7 +70,7 @@
             font-size: 3.5rem;
             margin-bottom: 20px;
             line-height: 1.2;
-            max-width: 800px;
+            max-width: 600px;
             margin-left: auto;
             margin-right: auto;
         }
