@@ -261,7 +261,7 @@
     }
   }
 </style>
-
+<section id="early-access">
 <div class="form-container">
   <!-- Left: Image -->
   <div class="left">
@@ -303,6 +303,7 @@
     {/if}
   </div>
 </div>
+</section>
 
 {#if showPopup}
   <div class="popup-overlay">
