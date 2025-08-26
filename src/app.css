@@ -1120,6 +1120,9 @@ footer {
   text-align: left !important;
 }
 
+    .uat-icon-dev {
+      gap: 15px
+    }
 
 .languages {
   padding-top: 5px !important;
