@@ -1247,4 +1247,7 @@ footer {
     .hero .container .hero-content .hero-title {
   font-size: 1.6rem !important;
 }
+    .uat-icon-dev {
+        gap: 15px;
+    }
 }
