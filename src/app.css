@@ -1066,6 +1066,12 @@ footer {
     padding: 110px 0 30px !important;  
 
 }
+
+  :global(.hero.s-fGZVaNGgqmmJ) {
+      padding: 110px 0 30px !important;  
+  }
+
+
     .hero-title {
         font-size: 1.8rem !important;
     }
