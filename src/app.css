@@ -1176,7 +1176,7 @@ footer {
 }
 
 .section-container .section-description{
-      font-size: 1rem;
+      font-size: 1rem !important;
 }
 
 .card-title.s-XXndfnFvS28y  {
