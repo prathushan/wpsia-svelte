@@ -1179,18 +1179,18 @@ footer {
       font-size: 1rem !important;
 }
 
-.card-title.s-XXndfnFvS28y  {
+.card-title {
     font-size: 1.0rem !important;
 }
 
 
-.card-header.s-XXndfnFvS28y {
+.card-header {
     display: flex !important;           /* enable flex layout */
     align-items: center !important;     /* vertically center items */
     gap: 0.5rem;             /* optional: spacing between icon and title */
   }
 
-  .card-icon.s-XXndfnFvS28y {
+  .card-icon {
     width: 1rem !important;
     height: 1rem !important;
     flex-shrink: 0;          /* prevent icon from shrinking */
@@ -1214,21 +1214,21 @@ footer {
     padding: 50px 0;
   }
 
-.faq .section-title.s-xrE-ElPFzCLS {
+.faq .section-title {
     font-size: 1.55rem !important;
 }
 
 
-.faq.s-xrE-ElPFzCLS {
+.faq {
  
     padding: 2.5rem 0 !important;
 }
 
-    .faq-question.s-xrE-ElPFzCLS {
+    .faq-question {
         font-size: 0.8rem !important;
     }
 
-    .faq-category-title.s-xrE-ElPFzCLS {
+    .faq-category-title {
     font-size: 1.2rem !important;
 
     }
