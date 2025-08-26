@@ -1214,9 +1214,9 @@ footer {
     padding: 50px 0;
   }
 
-  .languages .section-header .h2 {
-    font-size: 1.8rem !important;
-  }
+.languages .section-header h2 {
+  font-size: 1.8rem !important;
+}
 
 .faq .section-title {
     font-size: 1.55rem !important;
