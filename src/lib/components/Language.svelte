@@ -35,13 +35,13 @@
 }
 
 .section-header h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .section-header p {
-  font-size: 1.2rem;
+  font-size: 1.125rem;
   color: #555;
   margin-bottom: 30px;
 }

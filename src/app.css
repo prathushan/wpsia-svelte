@@ -1035,3 +1035,173 @@ footer {
     flex-direction: column;
   }
 }
+
+
+
+/* New css for responsive  */
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.20rem !important;
+    }
+
+  .hero-text {
+    text-align: center; /* center child text elements */
+  }
+
+  .hero-badge {
+    display: inline-block; /* so it can center */
+    margin: 0 auto;
+  }
+
+  .section-title {
+    /* font-size: 1.9rem !important; */
+    margin-bottom: 20px;
+}
+}
+
+@media (max-width: 390px) {
+
+.hero.s-fGZVaNGgqmmJ {
+    padding: 110px 0 30px !important;  
+
+}
+    .hero-title {
+        font-size: 1.8rem !important;
+    }
+
+  .hero-text {
+    text-align: center; /* center child text elements */
+  }
+
+  .hero-desc.s-fGZVaNGgqmmJ {
+    font-size: 1rem !important;
+  }
+
+
+  .hero-badge {
+    display: inline-block; /* so it can center */
+    margin: 0 auto;
+  }
+
+  .hero-desc {
+    font-size: 1rem;
+  }
+  .section-title {
+    font-size: 1.8rem !important;
+    margin-bottom: 20px;
+}
+
+.section-desc {
+    font-size: 1rem;
+}
+
+.uat-desText .s-Wf9PRaUlFezo {
+font-size: 1rem;
+}
+
+.languages {
+  padding-top: 5px !important;
+}
+
+.section-header.s-nqVgkyDC7tQY h2:where(.s-nqVgkyDC7tQY) {
+    font-size: 1.8rem !important;
+}
+ .section-header.s-nqVgkyDC7tQY p {
+  font-size: 0.9rem !important;
+  
+ }
+ .section-header.s-nqVgkyDC7tQY {
+    margin-bottom: 0; /* removes the 60px bottom margin */
+}
+
+.testimonials .section-title {
+    font-size: 1.6rem !important;
+} 
+  
+.testimonials {
+     padding-top: 10px;
+
+}
+
+.cta-title {
+     font-size: 1.8rem !important; 
+}
+
+    .right.s-zkgWn1QbQ8rV h2:where(.s-zkgWn1QbQ8rV) {
+        font-size: 1.8rem !important;
+    }
+
+ 
+   .hero-title.s-3oGfk5OZ8kfi {
+    font-size: 1.6rem !important;
+  }
+  
+  .accessibility-content.s-Wf9PRaUlFezo {
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section-container.s-XXndfnFvS28y {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.section-description.s-XXndfnFvS28y {
+      font-size: 1rem;
+}
+
+.card-title.s-XXndfnFvS28y  {
+    font-size: 1.0rem !important;
+}
+
+
+.card-header.s-XXndfnFvS28y {
+    display: flex !important;           /* enable flex layout */
+    align-items: center !important;     /* vertically center items */
+    gap: 0.5rem;             /* optional: spacing between icon and title */
+  }
+
+  .card-icon.s-XXndfnFvS28y {
+    width: 1rem !important;
+    height: 1rem !important;
+    flex-shrink: 0;          /* prevent icon from shrinking */
+  }
+
+  .pricing .section-title {
+    font-size: 1.6rem !important;
+  }
+
+
+  .testimonial-text {
+
+   font-size: 1.0rem !important; 
+  }
+
+  .cta-desc  {
+    font-size: 1rem !important;
+  }
+
+  .cta {
+    padding: 50px 0;
+  }
+
+.faq .section-title.s-xrE-ElPFzCLS {
+    font-size: 1.55rem !important;
+}
+
+
+.faq.s-xrE-ElPFzCLS {
+ 
+    padding: 2.5rem 0 !important;
+}
+
+    .faq-question.s-xrE-ElPFzCLS {
+        font-size: 0.8rem !important;
+    }
+
+    .faq-category-title.s-xrE-ElPFzCLS {
+    font-size: 1.2rem !important;
+
+    }
+}
