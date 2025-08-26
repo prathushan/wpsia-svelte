@@ -73,7 +73,7 @@
     margin-top: 30px;
   }
   .uat-desText p {
-    margin-top: 30px;
+    /* margin-top: 30px; */
   }
 
   .accessibility-header {

@@ -869,7 +869,7 @@ header {
 /* Footer */
 footer {
   padding: 80px 0 40px;
-  background: var(--dark);
+  background: var(--gradient);
   color: rgba(255, 255, 255, 0.7);
   position: relative;
   clip-path: ellipse(150% 100% at 50% 0%);
@@ -894,9 +894,11 @@ footer {
   font-weight: 800;
   color: white;
 }
-
+.footer-logo-highlight {
+  color:black;
+}
 .footer-logo-text span {
-  color: var(--primary);
+ color:black;
 }
 
 .footer-desc {

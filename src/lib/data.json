@@ -78,11 +78,12 @@
     ]
   },
     "uat": {
-    "title": "User Accessibility Testing",
-   "description":  "Accessibility simplified. Compliance guaranteed",
+    "title": "",
+   "description":  "",
     "desText": [
       { "text": "Accessibility is no longer optional — it’s a necessity. Every inaccessible website risks shutting out millions of users, damaging trust, and even facing lawsuits."},
-      { "text": "With WordPress Site Inspector + AI Agent, accessibility becomes effortless — scan your existing site, get actionable fixes, and stay confidently compliant. Ensure your website works for everyone while future-proofing your business."}
+      { "text": "With WordPress Site Inspector + AI Agent, accessibility becomes effortless — scan your existing site, get actionable fixes, and stay confidently compliant."},
+      { "text": "Accessibility isn’t just about compliance — it’s about inclusion, better user experience, and protecting your brand. WPSIA makes it simple and reliable."}
     ],
  "issueLevels": [
   {

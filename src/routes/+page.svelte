@@ -18,6 +18,7 @@
   import Workflow from '$lib/components/Workflow.svelte';
   import Models from '$lib/components/Models.svelte';
   import ContactUs from '$lib/components/Contact_us.svelte';
+  import Language from '$lib/components/Language.svelte';
 </script>
 
 <Header {data} />
@@ -25,8 +26,9 @@
 <Features {data} />
 <HowItWorks {data} />
 <Accessibility {data} />
-<Models {data} />
+<Models />
 <!-- <AiModels {data} /> -->
+<Language />
 <Pricing {data} />
 <Testimonials {data} />
 <Cta {data} />
