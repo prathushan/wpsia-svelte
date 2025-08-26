@@ -1171,8 +1171,8 @@ footer {
 }
 
 .section-container {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
 }
 
 .section-description.s-XXndfnFvS28y {
