@@ -1263,3 +1263,9 @@ footer {
   gap: 6px;              /* small space between number and text */
 }
 }
+
+@media (max-width: 430px) {
+  .hero:first-of-type .hero-title {
+    font-size: 1.9rem !important;
+  }
+}
