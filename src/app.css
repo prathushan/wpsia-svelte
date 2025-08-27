@@ -1060,7 +1060,7 @@ footer {
 }
 }
 
-@media (max-width: 390px) and (max-width: 750px){
+@media (min-width: 390px) and (max-width: 750px){
 
  .hero:first-of-type {
       padding: 110px 0 30px !important;  
