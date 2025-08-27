@@ -1118,6 +1118,7 @@ footer {
 .uat-desText p {
   font-size: 1rem !important; 
   text-align: left !important;
+  padding-bottom: 5px;
 }
 
     .uat-icon-dev {
@@ -1246,6 +1247,7 @@ footer {
 
 .hero .container .hero-text .hero-title {
   font-size: 1.6rem !important;
+  padding-top: 10px;
 }
 
 
@@ -1253,4 +1255,11 @@ footer {
     .uat-icon-dev {
         gap: 15px;
     }
+
+    .stat-text {
+  display: flex;
+  flex-direction: row !important;   /* ensures they sit side by side */
+  align-items: center !important;   /* vertically aligns them */
+  gap: 6px;              /* small space between number and text */
+}
 }

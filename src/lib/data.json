@@ -301,7 +301,7 @@
         "popular": true,
         "popularText": "Most Popular",
         "features": [
-          { "text": "Unlimited sites", "included": true },
+          { "text": "5 sites", "included": true },
           { "text": "Full code analysis", "included": true },
           { "text": "Unlimited AI queries", "included": true },
           { "text": "Advanced logging", "included": true },
