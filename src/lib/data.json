@@ -430,17 +430,17 @@
     "description": "WP-Site-Inspector gives developers deep insights into WordPress sites with AI assistance to dramatically speed up troubleshooting and auditing.",
     "social": [
       { "icon": "fab fa-twitter", "href": "#" },
-      { "icon": "fab fa-github", "href": "#" },
+      { "icon": "fab fa-github", "href": "https://github.com/prathushan/WP-Site-Inspector-Agent/" },
       { "icon": "fab fa-discord", "href": "#" }
     ],
     "sections": [
       {
         "title": "Product",
         "links": [
-          { "text": "Features", "href": "#" },
-          { "text": "Pricing", "href": "#" },
-          { "text": "Use Cases", "href": "#" },
-          { "text": "Testimonials", "href": "#" },
+          { "text": "Features", "href": "#features" },
+          { "text": "Pricing", "href": "#pricing" },
+          { "text": "Use Cases", "href": "#how-it-works" },
+          { "text": "Testimonials", "href": "#testimonials" },
           { "text": "Documentation", "href": "#" }
         ]
       },
@@ -450,7 +450,7 @@
           { "text": "About Us", "href": "#" },
           { "text": "Blog", "href": "#" },
           { "text": "Careers", "href": "#" },
-          { "text": "Contact", "href": "#" },
+          { "text": "Contact", "href": "#early-access" },
           { "text": "Privacy Policy", "href": "#" }
         ]
       },
@@ -458,10 +458,10 @@
         "title": "Support",
         "links": [
           { "text": "Help Center", "href": "#" },
-          { "text": "Community", "href": "#" },
-          { "text": "FAQ", "href": "#" },
+          { "text": "Community", "href": "https://github.com/prathushan/WP-Site-Inspector-Agent/" },
+          { "text": "FAQ", "href": "#faq" },
           { "text": "Request a Feature", "href": "#" },
-          { "text": "Report a Bug", "href": "#" }
+          { "text": "Report a Bug", "href": "https://github.com/prathushan/WP-Site-Inspector-Agent/issues/new" }
         ]
       }
     ],
