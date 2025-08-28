@@ -43,13 +43,14 @@
         {/each}
       </div>
 
-      <h4 class="hero-subtext">{data.hero.subDescription}</h4>
+      <!-- <h4 class="hero-subtext">{data.hero.subDescription}</h4> -->
       
     </div>
 
 
 
-    <div class="hero-image">
+    <div class="hero-image">       
+
       <img src={data.hero.image} alt="WP-Site-Inspector Dashboard" />
     </div>
   </div>
@@ -96,6 +97,7 @@
     font-weight: 600;
     margin-bottom: 25px;
   }
+  
 
 @media(min-width:1024px){
   .hero-image img {
@@ -108,6 +110,20 @@
     }
     .hero-badge-download{
       margin-bottom:0;
+    }
+
+
+  }
+    @media (max-width: 992px) {
+
+    .hero-desc{
+      margin-bottom:25px;
+    }
+    .hero-cta{
+      justify-content: center;
+    }
+    .hero-title{
+      text-align: center;
     }
 
   }

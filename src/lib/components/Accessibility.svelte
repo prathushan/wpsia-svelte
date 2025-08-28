@@ -60,4 +60,17 @@
 
     gap: 30px;
   }
+
+      @media (max-width: 992px) {
+
+    .accessibility-content{
+      flex-direction: column;
+    }
+    .accessibility-header{
+      margin-bottom:30px;
+    }
+   
+
+  }
+
 </style>

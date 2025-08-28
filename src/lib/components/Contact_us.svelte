@@ -259,6 +259,9 @@
       font-size: 0.9rem;
       padding: 0.7rem;
     }
+         .radio-group {
+      flex-direction: column;
+    }
   }
   @media(max-width:400px){
      button {
@@ -266,6 +269,9 @@
       padding: 0.7rem;
     }
   }
+
+
+
 </style>
 <section id="early-access">
 <div class="form-container">
@@ -323,3 +329,5 @@
     </div>
   </div>
 {/if}
+
+
