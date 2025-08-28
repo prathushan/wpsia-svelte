@@ -25,3 +25,11 @@
     </div>
   </div>
 </section>
+
+<style>
+  @media (max-width: 768px) {
+    .testimonial-grid {
+        padding-bottom:30px;
+    }
+}
+</style>

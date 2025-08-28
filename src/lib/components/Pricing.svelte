@@ -38,3 +38,18 @@
     </div>
   </div>
 </section>
+
+
+<style>
+  @media (max-width: 992px) {
+ .pricing-grid {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .pricing-card {
+    border: 2px solid #4a6cf7;
+    }
+}
+</style>
