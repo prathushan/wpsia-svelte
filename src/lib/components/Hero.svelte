@@ -6,7 +6,7 @@
   <div class="container hero-content">
     <div class="hero-text">
       <div class="hero-badge">{data.hero.badge}</div>
-      <h1 class="hero-title">{data.hero.title}</h1>
+      <h2 class="hero-title">{data.hero.title}</h2>
       <p class="hero-desc">{data.hero.description}</p>
       
       <div class="hero-cta">

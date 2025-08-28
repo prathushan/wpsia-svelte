@@ -9,7 +9,8 @@
   ];
 </script>
 
-<section class="languages">
+<section class="languages" id="languages">
+  <div class="container">
   <div class="section-header">
     <h2>Unlock Global Access</h2>
     <p>WP-Site-Inspector Now in Multiple Languages!</p>
@@ -25,6 +26,7 @@
         </div>
       {/each}
     </div>
+  </div>
   </div>
 </section>
 

@@ -37,31 +37,6 @@
         <img src={data.uat.image} alt="WP-Site-Inspector Dashboard" />
       </div>
     </div>
-
-    <!-- <div class="access-content">
-    <div class="access-image">
-        <img src={data.accessibility.image} alt={data.accessibility.imageAlt}>
-      </div>
-
-      <div class="access-text">
-               
-        <div class="issue-levels">
-          {#each data.accessibility.issueLevels as level}
-            <div class="issue-card issue-{level.type}">
-              <div class="issue-title">
-                <div class="issue-icon icon-{level.type}">
-                  <i class={level.icon}></i>
-                </div>
-                <h4>{level.title}</h4>
-              </div>
-              <p>{level.description}</p>
-            </div>
-          {/each}
-
-      
-    
-    </div>
-   -->
   </div>
 </section>
 
@@ -72,9 +47,7 @@
     justify-content: space-between;
     margin-top: 30px;
   }
-  .uat-desText p {
-    /* margin-top: 30px; */
-  }
+
 
   .accessibility-header {
     text-align: center;

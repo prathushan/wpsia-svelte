@@ -83,7 +83,7 @@
     };
   });
 </script>
-
+  <div class="container">
 <div class="section-container">
   <div class="content-wrapper">
     <!-- Section header moved outside the grid -->
@@ -157,7 +157,7 @@
     </div>
   </div>
 </div>
-
+</div>
 <style>
   /* Container styles */
   .section-container {
@@ -175,8 +175,8 @@
   .content-wrapper {
     width: 100%;
     height: 100%;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    /* padding-left: 1.25rem;
+    padding-right: 1.25rem; */
     margin-left: auto;
     margin-right: auto;
     max-width: 1600px;
@@ -218,7 +218,7 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 4rem;
-    padding: 0 60px;
+    /* padding: 0 60px; */
   }
   
   @media (min-width: 1024px) {
@@ -249,7 +249,8 @@
   }
   
   .model-card {
-    padding: 0.75rem;
+    padding: 0.75rem ;
+    padding-left:0;
     border-radius: 10px;
     cursor: pointer;
     background-color: #f8fafc; /* cinza-claro-3 equivalent */
