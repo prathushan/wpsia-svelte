@@ -39,7 +39,6 @@
  {
       title: "FIx With AI",
       description: "Pre-optimized models for inference with day 1 access to newly released models.",
-  
       image: "assets/Providers.png",
       imageAlt: "Open Source Model Launcher"
     }, 
@@ -87,16 +86,17 @@
 
 <div class="section-container">
   <div class="content-wrapper">
+    <!-- Section header moved outside the grid -->
+    <div class="section-header">
+      <h2 class="section-title">Supported AI Models & Providers</h2>
+      <p class="section-description">
+        Choose from a wide range of AI models to power your WordPress site analysis and fixes
+      </p>
+    </div>
+    
     <div class="grid-layout">
-      <!-- Left Column - Text and Cards -->
+      <!-- Left Column - Cards Only -->
       <div class="left-column">
-        <div class="text-content">
-          <h2 class="section-title">Supported AI Models & Providers</h2>
-          <p class="section-description">
-           Choose from a wide range of AI models to power your WordPress site analysis and fixes
-          </p>
-        </div>
-        
         <div class="cards-container">
           {#each modelCards as card, index}
             <div 
@@ -117,41 +117,21 @@
               >
                 <div class="content-wrapper">
                   <p class="card-description">{card.description}</p>
-                  <div class="tags-container">
-                    {#each card.tags as tag}
-                      <div class="tag">
-                        <span class="tag-dot"></span>
-                        <span>{tag}</span>
-                      </div>
-                    {/each}
-                  </div>
+                  {#if card.tags}
+                    <div class="tags-container">
+                      {#each card.tags as tag}
+                        <div class="tag">
+                          <span class="tag-dot"></span>
+                          <span>{tag}</span>
+                        </div>
+                      {/each}
+                    </div>
+                  {/if}
                 </div>
               </div>
             </div>
           {/each}
         </div>
-
-        <!-- Navigation controls -->
-        <!-- <div class="navigation-controls">
-          <button on:click={prevCard} on:mouseenter={resetAutoScroll} class="nav-button">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="15 18 9 12 15 6"></polyline>
-            </svg>
-          </button>
-          <div class="pagination-dots">
-            {#each modelCards as _, index}
-              <button 
-                on:click={() => handleCardClick(index)}
-                class="dot {activeCardIndex === index ? 'active' : ''}"
-              ></button>
-            {/each}
-          </div>
-          <button on:click={nextCard} on:mouseenter={resetAutoScroll} class="nav-button">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="9 18 15 12 9 6"></polyline>
-            </svg>
-          </button>
-        </div> -->
       </div>
       
       <!-- Right Column - Display Area -->
@@ -160,7 +140,7 @@
           <div 
             class="display-content {activeCardIndex === index ? 'active' : ''}" 
             data-index={index}
-            style={`transform: translate(0px, 0px); opacity: ${activeCardIndex === index ? 1 : 0}; display: ${activeCardIndex === index ? 'flex' : 'none'}`}
+            style={`opacity: ${activeCardIndex === index ? 1 : 0}; display: ${activeCardIndex === index ? 'flex' : 'none'}`}
           >
             {#if card.image}
               <div class="image-container">
@@ -209,11 +189,36 @@
     }
   }
   
+  /* Section header styles */
+  .section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .section-title {
+    margin-bottom: 1.75rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+  }
+  
+  .section-description {
+    color: #000;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    max-width: 80ch;
+    margin: 0 auto;
+  }
+  
   .grid-layout {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     gap: 4rem;
+    padding: 0 60px;
   }
   
   @media (min-width: 1024px) {
@@ -228,33 +233,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 578px;
-    gap: 1.25rem;
   }
   
   @media (min-width: 1024px) {
     .left-column {
       gap: 2.75rem;
     }
-  }
-  
-  .text-content {
-    width: 100%;
-  }
-  
-  .section-title {
-    margin-bottom: 1.75rem;
-    max-width: 35ch;
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-    font-weight: 700;
-  }
-  
-  .section-description {
-    max-width: 80ch;
-    color: #000;
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
   
   .cards-container {
@@ -367,60 +351,10 @@
     flex-shrink: 0;
   }
   
-  /* Navigation controls */
-  .navigation-controls {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    margin-top: 1.5rem;
-  }
-  
-  .nav-button {
-    background: #f5f5f5;
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.2s ease;
-  }
-  
-  .nav-button:hover {
-    --gradient: linear-gradient(135deg, #4a6cf7 0%, #6f42c1 100%);
-    background: var(--gradient);
-    color: white;
-  }
-  
-  .pagination-dots {
-    display: flex;
-    gap: 0.5rem;
-  }
-  
-  .dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    border: none;
-    background: #d1d1d1;
-    cursor: pointer;
-    transition: all 0.2s ease;
-  }
-  
-  .dot.active {
-    --gradient: linear-gradient(135deg, #4a6cf7 0%, #6f42c1 100%);
-    background: var(--gradient);
-    transform: scale(1.2);
-  }
-  
-  /* Right column styles */
+  /* Right column styles - UPDATED */
   .right-column {
     position: relative;
-    /* background-color: #f8fafc; */
-     --gradient: linear-gradient(135deg, #4a6cf7 0%, #6f42c1 100%);
+    --gradient: linear-gradient(135deg, #4a6cf7 0%, #6f42c1 100%);
     background: var(--gradient);
     border-radius: 20px;
     padding: 2rem;
@@ -428,7 +362,8 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    height: 612px;
+    /* Removed fixed height to allow dynamic sizing */
+    min-height: 300px; /* Minimum height for empty state */
   }
   
   .display-content {
@@ -449,13 +384,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background: white; /* Added white background for the image container */
+    padding: 1rem; /* Added padding to create space around the image */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   }
   
   .image-container img {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
-    border-radius: 10px;
+    border-radius: 8px;
     transition: transform 0.3s ease;
   }
   
@@ -468,13 +406,16 @@
     height: 100%;
     overflow: hidden;
     font-size: 13px;
+    background: white;
+    border-radius: 10px;
+    padding: 1rem;
   }
   
   .code-container pre {
     margin: 0;
   }
   
-  .code-container code {
+  /* .code-container code {
     white-space: pre;
     background: #FAFAFA;
     color: hsl(230, 8%, 24%);
@@ -497,7 +438,7 @@
     border-radius: 10px;
     display: block;
     max-height: 485px;
-  }
+  } */
   
   @media (max-width: 768px) {
     .code-container {
@@ -512,8 +453,29 @@
       max-height: 120px;
     }
     
-    .left-column {
-      min-height: auto;
+    .section-header {
+      margin-bottom: 2rem;
     }
+    
+    .section-title {
+      font-size: 1.875rem;
+      line-height: 2.25rem;
+    }
+    
+    /* Adjust right column for mobile */
+    .right-column {
+      padding: 1.5rem;
+      min-height: 250px;
+    }
+    
+    .image-container {
+      padding: 0.75rem;
+    }
+
+    @media (max-width: 768px) {
+  .grid-layout {
+    padding: 0;
+  }
+}
   }
 </style>
