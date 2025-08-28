@@ -25,8 +25,8 @@
     "title": "Debug, Analyze & Fix WordPress Sites in Minutes",
     "description": "WP-Site-Inspector gives developers deep insights into shortcode usage, hooks, templates, REST endpoints, and debugging logs with AI assistance to dramatically speed up troubleshooting.",
     "cta": [
-      { "text": "Get Started Free", "style": "primary", "href": "https://github.com/prathushan/WP-Site-Inspector-Agent/archive/refs/heads/main.zip" },
-      { "text": "View Demo", "style": "outline", "href": "#" }
+      { "icon": "fa-github", "text": "Download from Github", "style": "primary", "href": "https://github.com/prathushan/WP-Site-Inspector-Agent/archive/refs/heads/main.zip" },
+      { "icon": "", "text": "Request Early Pro Access", "style": "outline", "href": "#early-access" }
     ],
     "stats": [
       { "icon": "fas fa-plug", "number": "1,000+", "text": "Active Installs" },
@@ -229,7 +229,7 @@
       }
     ],
     "cta": {
-      "text": "See Full Documentation",
+      "text": "View Demo",
       "href": "#"
     }
   },
@@ -449,7 +449,6 @@
         "links": [
           { "text": "About Us", "href": "#" },
           { "text": "Blog", "href": "#" },
-          { "text": "Careers", "href": "#" },
           { "text": "Contact", "href": "#early-access" },
           { "text": "Privacy Policy", "href": "#" }
         ]
@@ -457,10 +456,8 @@
       {
         "title": "Support",
         "links": [
-          { "text": "Help Center", "href": "#" },
           { "text": "Community", "href": "https://github.com/prathushan/WP-Site-Inspector-Agent/" },
           { "text": "FAQ", "href": "#faq" },
-          { "text": "Request a Feature", "href": "#" },
           { "text": "Report a Bug", "href": "https://github.com/prathushan/WP-Site-Inspector-Agent/issues/new" }
         ]
       }

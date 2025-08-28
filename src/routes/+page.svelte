@@ -22,7 +22,7 @@
   import EarlyAccess from '$lib/components/EarlyAccess.svelte';
 </script>
 
-<EarlyAccess/>
+<!-- <EarlyAccess/> -->
 <Header {data} />
 <Hero {data} />
 <Features {data} />

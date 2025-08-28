@@ -12,7 +12,7 @@
     <div class="testimonial-grid">
       {#each data.testimonials.items as testimonial}
         <div class="testimonial-card">
-          <p class="testimonial-text">"{testimonial.text}"</p>
+          <p class="testimonial-text">{testimonial.text}</p>
           <div class="testimonial-author">
             <div class="author-avatar">{testimonial.author.initials}</div>
             <div class="author-info">
