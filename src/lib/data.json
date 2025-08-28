@@ -22,8 +22,10 @@
   },
   "hero": {
     "badge": "AI-Powered WordPress Analysis",
-    "title": "Debug, Analyze & Fix WordPress Sites in Minutes",
-    "description": "WP-Site-Inspector gives developers deep insights into shortcode usage, hooks, templates, REST endpoints, and debugging logs with AI assistance to dramatically speed up troubleshooting.",
+    "title": "Your AI Co-Pilot for WordPress",
+    "description": "WP-Site-Inspector isn’t just another debugging plugin — it’s the smarter way to manage WordPress. From catching errors before they break your site to automating fixes across entire multi-site networks, it redefines how developers, agencies, and enterprises stay in control.",
+    "secDescription":"Stop wasting hours chasing bugs. With WP-Site-Inspector, you can predict issues, automate fixes, and supercharge performance — all powered by AI. Debugging is now faster, smarter, and future-proof.",
+    "subDescription":"Be One of the First 100! Get Pro Access FREE",
     "cta": [
       { "icon": "fa-github", "text": "Download from Github", "style": "primary", "href": "https://github.com/prathushan/WP-Site-Inspector-Agent/archive/refs/heads/main.zip" },
       { "icon": "", "text": "Request Early Pro Access", "style": "outline", "href": "#early-access" }
@@ -33,7 +35,7 @@
       { "icon": "fas fa-star", "number": "4.9/5", "text": "Rating" },
       { "icon": "fas fa-code", "number": "98%", "text": "Success Rate" }
     ],
-    "image": "assets/wpsia-view.png"
+    "image": "assets/wpsia-view-org.png"
   },
   "features": {
     "title": "Powerful Features for WordPress Developers",
@@ -346,38 +348,14 @@
           {
             "question": "How do I install WP-Site-Inspector?",
             "answer": "You can install WP-Site-Inspector directly from the WordPress plugin repository or upload the plugin files to your wp-content/plugins directory. After uploading, simply activate the plugin from your WordPress admin panel."
-          },
-          {
-            "question": "What are the system requirements?",
-            "answer": "WP-Site-Inspector requires WordPress 5.6 or higher, PHP 7.4 or higher, and at least 256MB of memory. For optimal performance, we recommend PHP 8.0+ and 512MB of memory."
-          },
-          {
-            "question": "Does it work with multisite installations?",
-            "answer": "Yes, WP-Site-Inspector fully supports WordPress multisite networks. You can activate it network-wide or on individual sites within your network."
-          }
-        ]
-      },
-      {
-        "name": "Features & Functionality",
-        "questions": [
-          {
+          },{
             "question": "What types of issues can WP-Site-Inspector detect?",
             "answer": "Our plugin detects a wide range of issues including PHP errors, JavaScript conflicts, database problems, security vulnerabilities, performance bottlenecks, and accessibility issues. It also provides AI-powered recommendations for fixes."
           },
           {
             "question": "How does the AI assistance work?",
             "answer": "The AI analyzes your code and site structure to provide specific recommendations for improvements. It can suggest optimizations, identify potential conflicts, and even generate code snippets to fix common issues."
-          },
-          {
-            "question": "Can I customize the scanning process?",
-            "answer": "Yes, you can configure which types of scans to run, set exclusions for specific files or directories, and schedule automated scans at regular intervals."
-          }
-        ]
-      },
-      {
-        "name": "Pricing & Plans",
-        "questions": [
-          {
+          },{
             "question": "What's the difference between the Free and Pro versions?",
             "answer": "The Free version includes basic scanning capabilities with limited AI queries. The Pro version offers unlimited scans, advanced AI recommendations, complete accessibility testing, backup/restore functionality, and priority support."
           },
@@ -388,23 +366,6 @@
           {
             "question": "Do you offer discounts for agencies?",
             "answer": "Yes, we offer special agency pricing for managing multiple client sites. Contact our sales team for custom agency plans and white-label options."
-          }
-        ]
-      },
-      {
-        "name": "Support & Troubleshooting",
-        "questions": [
-          {
-            "question": "How do I get support?",
-            "answer": "Free users can access our community forums, while Pro users receive priority email support. All users have access to our comprehensive documentation and knowledge base."
-          },
-          {
-            "question": "What if the plugin conflicts with another plugin?",
-            "answer": "WP-Site-Inspector is designed to be compatible with most WordPress plugins. If you encounter a conflict, our support team can help you identify and resolve the issue."
-          },
-          {
-            "question": "How often is the plugin updated?",
-            "answer": "We release regular updates with new features, improvements, and compatibility updates. Pro users receive notifications about new updates and can enable automatic updates."
           }
         ]
       }
@@ -439,7 +400,6 @@
         "links": [
           { "text": "Features", "href": "#features" },
           { "text": "Pricing", "href": "#pricing" },
-          { "text": "Use Cases", "href": "#how-it-works" },
           { "text": "Testimonials", "href": "#testimonials" },
           { "text": "Documentation", "href": "#" }
         ]
@@ -448,7 +408,6 @@
         "title": "Company",
         "links": [
           { "text": "About Us", "href": "#" },
-          { "text": "Blog", "href": "#" },
           { "text": "Contact", "href": "#early-access" },
           { "text": "Privacy Policy", "href": "#" }
         ]

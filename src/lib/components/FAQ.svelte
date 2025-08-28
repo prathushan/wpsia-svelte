@@ -21,7 +21,7 @@
       <div class="faq-list">
         {#each data.faq.categories as category, categoryIndex}
           <div class="faq-category">
-            <h3 class="faq-category-title">{category.name}</h3>
+            <!-- <h3 class="faq-category-title">{category.name}</h3> -->
             
             {#each category.questions as question, index}
               <div class="faq-item">
@@ -63,14 +63,14 @@
     margin-bottom: 2.5rem;
   }
   
-  .faq-category-title {
+  /* .faq-category-title {
     font-size: 1.5rem;
     font-weight: 600;
     color: #111827;
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
-    /* border-bottom: 2px solid #e5e7eb; */
-  }
+    border-bottom: 2px solid #e5e7eb;
+  } */
   
   .faq-item {
     margin-bottom: 1rem;
@@ -111,7 +111,7 @@
     line-height: 1.6;
   }
   
-  .faq-cta {
+  /* .faq-cta {
     text-align: center;
     margin-top: 3rem;
     padding: 2rem;
@@ -128,7 +128,7 @@
     margin-bottom: 1.5rem;
     font-size: 1.125rem;
     color: #374151;
-  }
+  } */
   
   @media (max-width: 768px) {
     .faq-question {
