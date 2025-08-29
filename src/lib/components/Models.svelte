@@ -64,7 +64,7 @@
   function setupAutoScroll() {
     autoScrollInterval = setInterval(() => {
       nextCard();
-    }, 5000); // Change card every 5 seconds
+    }, 1200); // Change card every 5 seconds
   }
 
   // Reset auto-scroll timer

@@ -25,10 +25,11 @@
 <!-- <EarlyAccess/> -->
 <Header {data} />
 <Hero {data} />
+<Models />
 <Features {data} />
 <HowItWorks {data} />
 <Accessibility {data} />
-<Models />
+
 <!-- <AiModels {data} /> -->
 <Language />
 <Pricing {data} />
