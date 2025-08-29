@@ -6,13 +6,13 @@
     { name: "French", flag: "🇫🇷" },
     { name: "German", flag: "🇩🇪" },
     { name: "Indonesian", flag: "🇮🇩" },
-    { name: "Hindi (India)", flag: "🇮🇳" },
+    { name: "Hindi ", flag: "🇮🇳" },
     { name: "Portuguese", flag: "🇵🇹" },
     { name: "Arabic", flag: "🇸🇦" },
     { name: "Chinese", flag: "🇨🇳" },
     { name: "Japanese", flag: "🇯🇵" },
     { name: "Russian", flag: "🇷🇺" },
-    { name: "Hebrew (Israel)", flag: "🇮🇱" }
+    { name: "Hebrew ", flag: "🇮🇱" }
   ];
 </script>
 
