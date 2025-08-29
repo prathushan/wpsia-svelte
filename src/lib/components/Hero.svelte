@@ -84,8 +84,19 @@
     border-radius: 30px;
     font-size: 1rem;
     font-weight: 600;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     animation: pulse 2s infinite;
+  }
+    @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
   .hero-badge-download {
     display: inline-block;
@@ -95,7 +106,7 @@
     border-radius: 30px;
     font-size: 1rem;
     font-weight: 600;
-    margin-bottom: 25px;
+    margin-bottom: 15px; 
   }
   
 

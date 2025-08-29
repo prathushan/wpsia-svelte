@@ -4,7 +4,7 @@
   export let data;
 </script>
 
-<section class="how-it-works" id="how-it-works">
+<section class="how-it-works bg-change" id="how-it-works">
   <div class="container">
     <div class="section-header">
       <h2 class="section-title">{data.howItWorks.title}</h2>

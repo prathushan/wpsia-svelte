@@ -2,7 +2,7 @@
   export let data;
 </script>
 
-<section class="pricing" id="pricing">
+<section class="pricing bg-no-change" id="pricing">
   <div class="container">
     <div class="section-header">
       <h2 class="section-title">{data.pricing.title}</h2>

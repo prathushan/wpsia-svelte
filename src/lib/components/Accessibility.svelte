@@ -2,7 +2,7 @@
   export let data;
 </script>
 
-<section class="accessibility" id="accessibility">
+<section class="accessibility bg-no-change" id="accessibility">
   <div class="accessibility-header">
     <h2 class="section-title">{data.accessibility.title}</h2>
     <p class="section-desc">{data.accessibility.description}</p>
