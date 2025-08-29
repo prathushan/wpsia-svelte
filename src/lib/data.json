@@ -23,8 +23,8 @@
   "hero": {
     "badge": "AI-Powered WordPress Analysis",
     "title": "Your AI Co-Pilot for WordPress",
-    "description": "WP-Site-Inspector isn’t just another debugging plugin — it’s the smarter way to manage WordPress. From catching errors before they break your site to automating fixes across entire multi-site networks, it redefines how developers, agencies, and enterprises stay in control.",
-    "secDescription":"Stop wasting hours chasing bugs. With WP-Site-Inspector, you can predict issues, automate fixes, and supercharge performance — all powered by AI. Debugging is now faster, smarter, and future-proof.",
+    "description": "WP-Site-Inspector isn’t just another plugin it’s the AI-powered way to manage WordPress. From preventing errors to automating fixes across multi-sites, it keeps teams in control. Stop wasting hours chasing bugs with AI superpowers, you can predict issues, auto-fix, and boost performance. Debugging is now faster & smarter.",
+    "seccDescription":"Stop wasting hours chasing bugs with WP Site Inspector’s AI-superpowers, you can predict issues, automate fixes, and supercharge performance. Debugging is now faster & smarter.",
     "subDescription":"Be One of the First 100! Get Pro Access FREE",
     "cta": [
       { "icon": "fa-github", "text": "Download from Github", "style": "primary", "href": "https://github.com/prathushan/WP-Site-Inspector-Agent/archive/refs/heads/main.zip" },
@@ -83,9 +83,9 @@
     "title": "",
    "description":  "",
     "desText": [
-      { "text": "Accessibility is no longer optional — it’s a necessity. Every inaccessible website risks shutting out millions of users, damaging trust, and even facing lawsuits."},
-      { "text": "With WordPress Site Inspector + AI Agent, accessibility becomes effortless — scan your existing site, get actionable fixes, and stay confidently compliant."},
-      { "text": "Accessibility isn’t just about compliance — it’s about inclusion, better user experience, and protecting your brand. WPSIA makes it simple and reliable."}
+      { "text": "Accessibility is no longer optional it’s a necessity. Every inaccessible website risks shutting out millions of users, damaging trust, and even facing lawsuits."},
+      { "text": "With WP Site Inspector + AI Agent, accessibility becomes effortless scan your existing site, get actionable fixes, and stay confidently compliant."},
+      { "text": "Accessibility isn’t just about compliance it’s about inclusion, better user experience, and protecting your brand. WPSIA makes it simple and reliable."}
     ],
  "issueLevels": [
   {

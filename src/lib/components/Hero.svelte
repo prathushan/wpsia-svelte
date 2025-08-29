@@ -99,11 +99,11 @@
   }
   
 
-@media(min-width:1024px){
+/* @media(min-width:1024px){
   .hero-image img {
   height:600px;
 }
-}
+} */
   @media (max-width: 480px) {
     .hero-badge-container {
       flex-direction: column;
