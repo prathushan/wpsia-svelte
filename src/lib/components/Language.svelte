@@ -4,8 +4,15 @@
     { name: "English", flag: "🇺🇸" },
     { name: "Spanish", flag: "🇪🇸" },
     { name: "French", flag: "🇫🇷" },
-    { name: "German", flag: "🇩🇪" }
-   
+    { name: "German", flag: "🇩🇪" },
+    { name: "Indonesian", flag: "🇮🇩" },
+    { name: "Hindi (India)", flag: "🇮🇳" },
+    { name: "Portuguese", flag: "🇵🇹" },
+    { name: "Arabic", flag: "🇸🇦" },
+    { name: "Chinese", flag: "🇨🇳" },
+    { name: "Japanese", flag: "🇯🇵" },
+    { name: "Russian", flag: "🇷🇺" },
+    { name: "Hebrew (Israel)", flag: "🇮🇱" }
   ];
 </script>
 
