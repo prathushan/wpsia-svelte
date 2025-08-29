@@ -83,6 +83,7 @@
     };
   });
 </script>
+<section>
   <div class="container">
 <div class="section-container">
   <div class="content-wrapper">
@@ -158,6 +159,7 @@
   </div>
 </div>
 </div>
+</section>
 <style>
   /* Container styles */
   .section-container {

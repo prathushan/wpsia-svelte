@@ -239,15 +239,17 @@ a {
 }
 
 .hero-desc {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-bottom: 5px;
   color: var(--body-color);
+
 }
 
 .hero-cta {
   display: flex;
   gap: 15px;
   margin-bottom: 20px;
+  margin-top:25px;
 }
 
 .hero-stats {
@@ -301,7 +303,12 @@ a {
   transform: translateY(-5px);
   box-shadow: 0 15px 30px rgba(64, 86, 227, 0.73);
 }
-
+.bg-change{
+    background: #f8fafc;
+}
+.bg-no-change{
+  background: #fff;
+}
 /* Features Section */
 .features {
   padding: 50px 0 ;

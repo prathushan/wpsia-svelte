@@ -106,7 +106,7 @@
   }
   
   .faq-answer {
-    padding: 0 1.5rem 1.5rem;
+    padding: 1.5rem;
     color: #6b7280;
     line-height: 1.6;
   }

@@ -2,7 +2,7 @@
   export let data;
 </script>
 
-<section class="features" id="features">
+<section class="features bg-no-change" id="features">
   <div class="container">
     <div class="section-header">
       <h2 class="section-title">{data.features.title}</h2>
