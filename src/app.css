@@ -22,7 +22,7 @@
 body {
   color: var(--body-color);
   line-height: 1.7;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 h1,
@@ -215,7 +215,13 @@ a {
   display: flex;
   align-items: center;
   gap: 50px;
+  align-items: flex-end;
 }
+
+/* .hero-content > * {
+    flex: 1;
+    max-width: 50%;
+} */
 
 .hero-text {
   flex: 1;
@@ -312,7 +318,7 @@ a {
 /* Features Section */
 .features {
   padding: 50px 0 ;
-  background: #f8fafc;
+  /* background: #f8fafc; */
 }
 
 .section-header {
@@ -377,7 +383,7 @@ a {
 /* Accessibility Section */
 .accessibility {
   padding: 50px 0 10px;
-  background: #f8fafc;
+  /* background: #f8fafc; */
 }
 
 .access-content {
@@ -608,7 +614,7 @@ a {
 /* Pricing Section */
 .pricing {
   padding: 50px 0;
-  background: #f8fafc;
+  /* background: #f8fafc; */
 }
 
 .pricing-grid {
@@ -708,7 +714,7 @@ a {
 /* How It Works */
 .how-it-works {
   padding: 50px 0;
-  background: white;
+  /* background: white; */
 }
 
 .process-steps {
@@ -765,7 +771,7 @@ a {
 /* Testimonials */
 .testimonials {
   padding-top: 60px;
-  background-color: #f8fafc;
+  /* background-color: #f8fafc; */
 }
 
 .testimonial-grid {
@@ -1124,7 +1130,7 @@ footer {
     }
 
   .hero-text {
-    text-align: center; /* center child text elements */
+    text-align: center; 
   }
 
   .hero-badge {
@@ -1149,9 +1155,9 @@ footer {
         font-size: 1.8rem !important;
     }
 
-  .hero-text {
-    text-align: center; /* center child text elements */
-  }
+  /* .hero-text {
+    text-align: center; 
+  } */
 
   .hero-desc {
     font-size: 1rem !important;

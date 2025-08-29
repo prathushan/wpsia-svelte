@@ -9,7 +9,7 @@
   ];
 </script>
 
-<section class="languages" id="languages">
+<section class="languages bg-change" id="languages">
   <div class="container">
   <div class="section-header">
     <h2>Unlock Global Access</h2>

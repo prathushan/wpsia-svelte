@@ -83,7 +83,7 @@
     };
   });
 </script>
-<section>
+<section class="bg-change">
   <div class="container">
 <div class="section-container">
   <div class="content-wrapper">
@@ -163,7 +163,7 @@
 <style>
   /* Container styles */
   .section-container {
-    padding-top: 3.5rem;
+    padding-top: 1rem;
     padding-bottom: 3.5rem;
   }
   
@@ -252,7 +252,7 @@
   
   .model-card {
     padding: 0.75rem ;
-    padding-left:0;
+    /* padding-left:0; */
     border-radius: 10px;
     cursor: pointer;
     background-color: #f8fafc; /* cinza-claro-3 equivalent */

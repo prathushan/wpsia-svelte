@@ -2,7 +2,7 @@
   export let data;
 </script>
  
-<section class="testimonials" id="testimonials">
+<section class="testimonials bg-change" id="testimonials">
   <div class="container">
     <div class="section-header">
       <h2 class="section-title">{data.testimonials.title} <span class="title-highlight"> {data.testimonials.titleHighlight}</span></h2> 
