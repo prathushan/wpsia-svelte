@@ -277,7 +277,7 @@
 <div class="form-container">
   <!-- Left: Image -->
   <div class="left">
-    <img src="assets/Contact.png" alt="Contact us" />
+    <img src="assets/Contact.png" alt="Contact us" loading="lazy"/>
   </div>
 
   <!-- Right: Form -->

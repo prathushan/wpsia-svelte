@@ -34,7 +34,7 @@
       </div>
 
       <div class="hero-image">
-        <img src={data.uat.image} alt="WP-Site-Inspector Dashboard" />
+        <img src={data.uat.image} alt="WP-Site-Inspector Dashboard" loading="lazy"/>
       </div>
     </div>
   </div>

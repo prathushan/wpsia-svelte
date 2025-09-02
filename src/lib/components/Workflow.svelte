@@ -329,7 +329,7 @@
      
       <!-- Left-side card -->
       <div class="card left card-left">
-        <img src="/assets/wordpress-icon.png" alt="Final Output" class="wordpress-logo">
+        <img src="/assets/wordpress-icon.png" alt="Final Output" class="wordpress-logo" loading="lazy">
       </div>
      
       <!-- AI cards -->
@@ -351,7 +351,7 @@
 <div class="mobile-only">
   <div class="mobile-container">
     <!-- Logo at the top -->
-    <img src="/assets/wordpress-icon.png" alt="WordPress Logo" class="mobile-logo">
+    <img src="/assets/wordpress-icon.png" alt="WordPress Logo" class="mobile-logo" loading="lazy">
     
     <!-- Connection line after logo -->
     <div class="mobile-connector mobile-dashed-line" style="top: 90px;"></div>

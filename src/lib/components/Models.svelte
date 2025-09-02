@@ -145,7 +145,7 @@
           >
             {#if card.image}
               <div class="image-container">
-                <img src={card.image} alt={card.imageAlt} />
+                <img src={card.image} alt={card.imageAlt} loading="lazy"/>
               </div>
             {:else}
               <div class="code-container">
